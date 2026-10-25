@@ -1,0 +1,10 @@
+{
+  "id": "badge-chip",
+  "name": "Badge Chip",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Type !! to pick a badge from a searchable list and insert it in the Badges plugin syntax. The badge list is editable in settings.",
+  "author": "goeun",
+  "authorUrl": "https://github.com/goeun23",
+  "isDesktopOnly": false
+}

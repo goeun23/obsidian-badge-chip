@@ -1,0 +1,46 @@
+/* badge-chip: badge picker shown after typing `!!` */
+
+.badge-chip-suggestion .suggestion-title {
+  display: flex;
+  align-items: center;
+  gap: var(--size-4-2);
+}
+
+.badge-chip-suggestion .badge-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.badge-chip-suggestion .badge-chip-icon svg {
+  width: var(--icon-s);
+  height: var(--icon-s);
+}
+
+.badge-chip-suggestion .badge-chip-label {
+  font-weight: var(--font-semibold);
+}
+
+.badge-chip-suggestion .badge-chip-type {
+  font-size: var(--font-smallest);
+  color: var(--text-faint);
+  font-family: var(--font-monospace);
+}
+
+.badge-chip-suggestion .badge-chip-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.badge-chip-suggestion .badge-chip-preview {
+  font-family: var(--font-monospace);
+  font-size: var(--font-smallest);
+  color: var(--text-faint);
+}
+
+.badge-chip-settings-textarea {
+  width: 100%;
+  min-height: 14em;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+}
